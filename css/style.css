@@ -835,6 +835,7 @@ Stylesheet: ベーススタイル
   font-size: 18px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .main .contact-form .contact-submit {
@@ -844,6 +845,7 @@ Stylesheet: ベーススタイル
 
 .main .contact-form .contact-submit:hover {
   cursor: pointer;
+  opacity: 0.5;
 }
 
 .footer {
